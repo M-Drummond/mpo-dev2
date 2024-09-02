@@ -13,14 +13,14 @@
                 lobortis suspendisse interdum a vestibulum in dignissim suspendisse nibh parturient in eu inceptos
                 integer massa consequat tincidunt sociis ac parturient a a.Mattis velit nec.</p>
         </div>
-        <div class="w-full  min-h-32 dark:bg-black bg-purple-50">
+        <div class="w-full  min-h-32  ">
            
 
         </div>
 
     </section>
 
-    <section id="sec_2" class="dark:bg-black bg-purple-50 bg-gradient-to-br min-h-32 p-8 from-white via-slate-200 to:prurple-200 dark:from-black dark:via-slate-900 dark:to-purple-900">
+    <section id="sec_2" class="min-h-32 p-8">
         <div class="prose dark:prose-invert mx-auto py-24 ">
             <h1>We'll put some icons and some nice photos in amongst all this.</h1>
             <h2>Vel non magnis neque penatibus hendrerit habitant </h2>
@@ -33,17 +33,17 @@
     </section>
 
 
-    <div class="p-4 bg-slate-100 py-8 md:py-24 dark:bg-black   w-full min-h-12 mx-auto rounded-sm">
+    <div class="p-4 bg-stone-500 py-8 md:py-24  w-full min-h-12 mx-auto rounded-sm">
         <div class="prose dark:prose-invert mx-auto w-full mb-8 ">
-            <h1 class="text-center w-full">We make charts</h1>
+            <h1 class="text-center text-black w-full">We make charts</h1>
         </div>
         <div class="lg:max-w-screen-lg mx-auto ">
-            <!-- <LineChart :data="dataLine" index="year" :categories="['Export Growth Rate', 'Import Growth Rate']"
+            <LineChart :data="dataLine" index="year" :categories="['Export Growth Rate', 'Import Growth Rate']"
                 :y-formatter="(tick, i) => {
                     return typeof tick === 'number'
                         ? `$ ${new Intl.NumberFormat('us').format(tick).toString()}`
                         : ''
-                }" /> -->
+                }" />
         </div>
     </div>
 
@@ -62,7 +62,7 @@
                 lobortis suspendisse interdum a vestibulum in dignissim suspendisse nibh parturient in eu inceptos
                 integer massa consequat tincidunt sociis ac parturient a a.Mattis velit nec.</p>
         </div>
-        <div class="w-full  min-h-32 dark:bg-black bg-purple-50">
+        <div class="w-full  min-h-32  ">
             <Icon icon="radix-icons:lock-closed"
                 class="absolute h-[1.2rem] w-[1.2rem]   transition-all dark:rotate-0 dark:scale-100" />
 

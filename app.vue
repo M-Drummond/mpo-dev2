@@ -1,6 +1,6 @@
 <template>
 
-  <div class="bg-stone-900 text-stone-300">
+  <div class="dark:bg-stone-900 dark:text-stone-300">
 
   <TheTopNavBar/>
 
@@ -13,7 +13,7 @@
 
   </div>
 
-  <footer class="bg-stone-950 text-stone-300 text-center  p-8 font-bold ">
+  <footer class="dark:bg-stone-950 dark:text-stone-300 text-center p-8 font-bold ">
       
     
       <div>&copy; STOCK OPTIONS PLEASE</div>
@@ -23,3 +23,8 @@
 
 </template>
  
+<style>
+body {
+  @apply dark:bg-stone-900 dark:text-stone-300; 
+}
+</style>

@@ -12,6 +12,7 @@
   "dependencies": {
     "@nuxtjs/color-mode": "^3.4.4",
     "@tailwindcss/typography": "^0.5.15",
+    "@unovis/vue": "1.4.3-beta.0",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
     "lucide-vue-next": "^0.438.0",
