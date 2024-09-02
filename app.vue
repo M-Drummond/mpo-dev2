@@ -1,8 +1,9 @@
 <template>
 
-  <!-- <TheTopNavBar/> -->
+  <div class="bg-stone-900 text-stone-300">
 
-  <div class="">
+  <TheTopNavBar/>
+
 
     <NuxtLayout>
       <NuxtPage />
@@ -12,7 +13,7 @@
 
   </div>
 
-  <footer class="dark:bg-slate-800 text-center dark:text-white p-8 bg-purple-100 font-bold ">
+  <footer class="bg-stone-950 text-stone-300 text-center  p-8 font-bold ">
       
     
       <div>&copy; STOCK OPTIONS PLEASE</div>
