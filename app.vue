@@ -23,8 +23,3 @@
 
 </template>
  
-<style>
-body {
-  @apply dark:bg-stone-900 dark:text-stone-300; 
-}
-</style>
