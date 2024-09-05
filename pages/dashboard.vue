@@ -1,3 +1,10 @@
+<script setup lang="ts"> 
+definePageMeta({
+  layout: 'dash'
+})
+ 
+
+</script>
 
 <template>
 
@@ -25,12 +32,3 @@
     </div>
  
 </template>
-
-
-<script setup lang="ts"> 
-definePageMeta({
-  layout: 'dash'
-})
- 
-
-</script>

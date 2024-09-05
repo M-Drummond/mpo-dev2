@@ -10,6 +10,10 @@ export default defineNuxtConfig({
       }
     }
   },
+  routeRules:{
+    '/news': { static: true },
+    '/news/**': { static: true },
+  },
   compatibilityDate: '2024-04-03',
   devtools: { enabled: true },
   modules: ['@nuxtjs/tailwindcss', 'shadcn-nuxt','@nuxtjs/color-mode'],

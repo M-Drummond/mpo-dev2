@@ -3,6 +3,10 @@ import { Icon } from '@iconify/vue'
 import { Button } from '@/components/ui/button'
 import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from '@/components/ui/dropdown-menu'
 
+defineOptions({
+  inheritAttrs: false
+})
+
 const colorMode = useColorMode()
 </script>
 

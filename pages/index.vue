@@ -71,7 +71,10 @@
     </section>
 </template>
 
-<script lang="ts" setup>
+<script setup lang="ts">
+definePageMeta({
+    layout: 'default'
+})
 const dataLine = [
     {
         'year': 1970,

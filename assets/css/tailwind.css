@@ -3,6 +3,18 @@
 @tailwind utilities;
 
 
+html, body {
+  @apply dark:bg-stone-900 dark:text-stone-300; 
+}
+
+
+html.light {
+  scrollbar-color: #ccc #efefef;
+}
+
+html.dark {
+  scrollbar-color: #666 #222;
+}
 
 @layer base {
   :root {

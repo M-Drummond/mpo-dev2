@@ -1,4 +1,4 @@
-<script lang="ts" setup>
+<script setup lang="ts">
 definePageMeta({
     layout: 'text'
 })
@@ -209,7 +209,7 @@ definePageMeta({
 
         <br>
         <hr>
-        
+
 
         <br>
         <hr>
@@ -467,5 +467,5 @@ A leaflet.
     </section>
 
     <hr>
-   
+
 </template>
