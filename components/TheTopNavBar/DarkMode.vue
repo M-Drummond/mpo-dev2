@@ -7,6 +7,10 @@ defineOptions({
   inheritAttrs: false
 })
 
+defineComponent({
+  title: "Dark Mode"
+})
+
 const colorMode = useColorMode()
 </script>
 
