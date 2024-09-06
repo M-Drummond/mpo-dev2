@@ -27,7 +27,7 @@
     "axios": "^1.7.7",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
-    "lru-cache": "^11.0.0",
+    "lru-cache": "^11.0.1",
     "lucide-vue-next": "^0.438.0",
     "mande": "^2.0.9",
     "module": "^1.2.5",
