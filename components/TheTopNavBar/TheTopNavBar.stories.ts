@@ -2,7 +2,7 @@ import TheTopNavBar from '../TheTopNavBar/TheTopNavBar.vue';
 
 export default {
   component: TheTopNavBar,
-  title: 'Navigation/The Top Nav Bar',
+  title: 'Navigation/The Top Nav Bar/Top Nav Bar',
   // tags: ['autodocs'],
   // decorators: [() => ({ template: '<div style="min-height: 3em;"><story/></div>' })],
 }
