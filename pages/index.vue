@@ -64,8 +64,6 @@
                 integer massa consequat tincidunt sociis ac parturient a a.Mattis velit nec.</p>
         </div>
         <div class="w-full  min-h-32  ">
-            <Icon icon="radix-icons:lock-closed"
-                class="absolute h-[1.2rem] w-[1.2rem]   transition-all dark:rotate-0 dark:scale-100" />
 
         </div>
 
